@@ -113,7 +113,7 @@ header .nav-bar.ui.secondary.pointing.inverted.menu {
  ********************************************************************************/
 
 .hero {
-    padding: 128px 0px;
+    padding: 128px 0px 192px 0px;
 }
 
 .hero h1 {
