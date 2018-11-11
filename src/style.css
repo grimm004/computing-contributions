@@ -100,8 +100,18 @@ header .nav-bar.ui.secondary.pointing.inverted.menu {
     margin: -24px 0px 0px 24px;
 }
 
+
 ul {
-    list-style-type: square;
+  list-style-type: square;
+}
+
+.main .content a {
+    border-bottom: solid 1px #5D2182;
+}
+
+.main .content a:hover {
+    border-bottom-color: #7A48CC;
+
 }
 
 /********************************************************************************
@@ -109,7 +119,7 @@ ul {
  ********************************************************************************/
 
 .hero {
-    padding: 128px 0px;
+    padding: 128px 0px 192px 0px;
 }
 
 .hero h1 {
