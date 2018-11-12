@@ -14,10 +14,6 @@ h1, h2, h3, h4, h5 {
     font-family: Montserrat, Arial, Helvetica, sans-serif;
 }
 
-h1 {
-    font-weight: normal;
-}
-
 a {
     color: #5D2182;
 }
@@ -39,6 +35,13 @@ header .ui.menu .item.title {
     padding-bottom: 0px;
 }
 
+header h1 {
+    width: 180px;
+    font-weight: normal;
+    line-height: 32px;
+    margin-top: 8px;
+}
+
 .page-head {
     margin: 24px 0px;
 }
@@ -50,6 +53,10 @@ header .ui.menu .item.title {
 
 .page-head .section-icon.ui.floated.segment {
     margin-right: 0px;
+}
+
+header .nav-bar {
+    padding-bottom: 24px;
 }
 
 header .nav-bar.ui.secondary.pointing.inverted.menu {
